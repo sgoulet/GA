@@ -1,0 +1,86 @@
+body {
+  background-color: rgba(60,60,60,1);
+  color: rgba(255,255,255,1);
+  border: 5px solid rgba(119,119,119,1);
+  margin: 40px;
+  padding: 50px;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+strong {
+  color: rgba(255,255,255,1);
+}
+
+hr {
+  display: block;
+  border-color: rgba(153,153,153,1);
+  border-width: thin;
+  border-left: auto;
+  border-right: auto;
+  border-style: solid;
+}
+
+a {
+  color: rgba(95,206,159,1);
+}
+
+p, h3 {
+  font-family: 'Playfair Display';
+}
+
+h2, span {
+  font-family: 'Signika';
+}
+
+h3 {
+  text-transform: uppercase;
+	color: rgba(180,180,180,1);
+}
+
+h4 {
+  text-transform: uppercase;
+	color: rgba(180,180,180,1);
+}
+
+li p {
+  color: rgba(180,180,180,1);
+	margin: 1px;
+}
+
+li {
+  margin: 20px;
+	list-style: square;
+}
+
+p.exp {
+  color: rgba(179,179,179,1);
+}
+
+li.edu {
+  margin: 5px;
+  font-family: 'Signika';
+}
+
+img {
+  float: right;
+  height: auto;
+  width: auto;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgba(153,153,153,1);
+  padding: 5px;
+}
+
+nav {
+  text-align: center;
+	color: rgba(180,180,180,1);
+  font-family: 'Signika';
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

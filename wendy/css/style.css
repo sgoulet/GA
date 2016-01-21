@@ -1,0 +1,26 @@
+/*{
+	font-family: Georgia, Sans-Serif, Serif;
+	color: #777;
+}*/
+
+body {
+	font-family: Georgia, Sans-Serif, Serif;
+	background-color: #444;
+}
+
+h1 {
+	font-family: Georgia, Sans-Serif, Serif;
+}
+
+img {
+	float: right;
+	border-width: 1px;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+nav {
+	font-family: Georgia, Sans-Serif, Serif;
+	text-align: center;
+	display: inline;
+}
