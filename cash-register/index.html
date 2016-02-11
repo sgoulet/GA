@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Enter your receipt amounts and let the Cash Register tally it all.">
+	<meta name="keywords" content="cash register, accounting, money, fiscal responsibility">
+	<title>Cash Register</title>
+	<!-- internal styles -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- external styles -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id="container">
+		<div id="register">
+			<div id="receipt">
+				<h1>Cash Register</h1>
+				<table>
+					<tbody id="entries">
+					</tbody>
+					<tfoot>
+						<tr>
+							<th>Total</th>
+							<th id="total">$0.00</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<form id="userEntry">
+				<input id="newUserEntry" autofocus placeholder="What's the damage?">
+			</form>
+		</div>	<!-- end register -->
+	</div>	<!-- end container -->
+	<script src="js/main.js"></script>
+</body>
+</html>

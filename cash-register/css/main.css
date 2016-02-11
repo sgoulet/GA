@@ -1,0 +1,130 @@
+/*
+Project Name: Cash Register
+Client: GA BOS FEWD 21
+Author: Shawn Goulet
+Developer-In-Training @ Cape Cod
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: rgba(238,238,238,1);
+	font-family: 'Open Sans', sans-serif;
+	font-size: larger;
+	margin: 2em;
+	padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#register {
+	width: 20em;
+	margin: auto;
+}
+
+#receipt {
+	background: white;
+	margin: 0 1em;
+	padding: 1em;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+#receipt h1 {
+	text-align: center;
+}
+
+#receipt table {
+	font-family: 'Inconsolata';
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#receipt td, #receipt th {
+	padding: 0.1em;
+}
+
+#receipt th {
+	text-align: left;
+}
+
+#receipt td, #receipt #total {
+	text-align: right;
+}
+
+#receipt tfoot th {
+	border-top: 0.5em solid rgba(0,0,0);
+}
+
+#userEntry {
+	background: rgba(51,51,51,1);
+	padding: 0.5em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px rgba(136,136,136,.25);
+}
+
+#userEntry input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid rgba(0,0,0);
+	text-align: right;
+	font-size: larger;
+	box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+	/*-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+#userEntry input:focus {
+	outline: none;
+	border-color: rgba(255,255,255,0.6);
+}
