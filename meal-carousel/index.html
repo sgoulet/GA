@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Rate your favorite meals on this super cool site!">
+  <meta name="keywords" content="food, meals, ratings, nom nom">
+	<title>Eat Scale</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+		    <li><a href="#">About</a></li>
+		    <li><a href="#">Terms</a></li>
+		    <li><a href="#">Your pic here!</a></li>
+		    <li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="container">
+		<img id="image-to-vote-on" src="images/food1.jpg">
+		<div></div>
+		<div id="buttons-wrapper">
+			<form>
+				<input type="button" class="btn" value="Back">
+				<input type="button" class="btn" value="Skip">
+				<select id="your-vote">
+					<option value=""></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</form>
+		</div>		<!-- end #buttons-wrapper -->
+	</div>		<!-- end #container -->
+<footer></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
