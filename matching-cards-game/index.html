@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+  <meta name="description" content="Check your memory with this matching cards game!">
+  <meta name="keywords" content="memory, playing cards, so much fun">
+	<title>Matching Cards Game</title>
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div id="container">
+		<header><h1>Matching Cards Game</h1></header>
+		<div id="game">
+			<h2 id="gameOver">Congratulations! You've matched all cards in <span id="number-of-moves"></span> moves</h2>
+			<div id="game-cards" class="clearfix">
+				<div class="king cards"></div>
+				<div class="king cards"></div>
+				<div class="queen cards"></div>
+				<div class="queen cards"></div>
+			</div>
+			<div id="game-control-buttons">
+				<button id="start">Start game</button>
+				<button id="reset">Reset game</button>
+				<input type="checkbox" id="cheat"> Cheat mode
+			</div>
+		</div>	<!-- end container -->
+		<footer>&copy; General Assembly</footer>
+	</div>
+	<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
